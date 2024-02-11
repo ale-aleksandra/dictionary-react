@@ -1,5 +1,6 @@
 import "./App.css";
 import logo from "./logo.png";
+import Dictionary from "./Dictionary.js";
 
 export default function App() {
   return (
@@ -8,7 +9,10 @@ export default function App() {
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
-        <footer>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
           This project was coded by Aleksandra Jablonska and is open-sourced on{" "}
           <a
             href="https://github.com/ale-aleksandra/dictionary-react"
