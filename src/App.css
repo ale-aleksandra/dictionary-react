@@ -1,9 +1,10 @@
 body {
-  background: #f9f8fe;
+  background: #f7e8f0;
 }
 
 a {
-  color: #9670f4;
+  color: #feb377;
+  text-decoration: none;
 }
 
 .App {
@@ -13,12 +14,10 @@ a {
 
 .App-header {
   margin: 30px;
-}
-
-.App-logo {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
+  text-align: center;
+  font: 800 40px Arial;
+  -webkit-text-fill-color: #f1c6de;
+  -webkit-text-stroke: 1.5px;
 }
 
 .App-footer {
