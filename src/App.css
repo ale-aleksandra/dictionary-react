@@ -17,7 +17,7 @@ a {
   text-align: center;
   font: 800 40px Arial;
   -webkit-text-fill-color: #f1c6de;
-  -webkit-text-stroke: 1.5px;
+  -webkit-text-stroke: 1px;
 }
 
 .App-footer {
